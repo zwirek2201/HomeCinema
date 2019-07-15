@@ -1,0 +1,69 @@
+<script type="text/javascript">
+ var zarezerwowane = 0;
+function Siedzenie(sender)
+{
+    if(sender.className == "pelne")
+    {
+        if(zarezerwowane < 10)
+        {
+            sender.className = "zajete";
+            zarezerwowane += 1;
+            DodajDoListy(sender.getAttribute('rzad'),sender.getAttribute('siedzenie'))
+        }
+        else
+        {
+            alert("Nie mozna zarezerwowac wiecej miejsc!");
+        }
+    }
+    else
+    {
+        sender.className = "pelne";
+        zarezerwowane -= 1;
+        UsunZListy(sender.getAttribute('rzad')+'/'+sender.getAttribute('siedzenie'))
+    }
+}
+
+function UsunZListy(id)
+{
+    var element = document.getElementById(id)
+    element.remove(element)
+}
+
+function DodajDoListy(rzad, siedzenie)
+{
+    if(document.getElementById("tabela_biletow") == null)
+    {
+        var tab = document.createElement('table')
+        tab.setAttribute("id","tabela_biletow")
+        document.getElementById("uklad_sali").getElementsByTagName("center")[0].appendChild(tab)
+    }
+    var table = document.getElementById('tabela_biletow')
+    table.setAttribute('class','tabela_biletow')
+    var row = table.insertRow(table.rows.counter)
+    row.setAttribute("id",rzad+'/'+siedzenie)
+    var cell = row.insertCell(0)
+    cell.setAttribute('align','left')
+    cell.innerHTML = '<p class="id_biletu">Miejsce ' + String.fromCharCode(64 + parseInt(rzad)) + siedzenie + '</p>'
+    cell = row.insertCell(1)
+    cell.setAttribute('align','right')
+    var select = document.createElement('select')
+    var dupa = 
+Warning: json_encode() expects at least 1 parameter, 0 given in D:\xampp\htdocs\PROJEKT\dolaczenia\~kod_html.php on line 580
+
+Call Stack:
+    0.0023     480064   1. {main}() D:\xampp\htdocs\PROJEKT\dolaczenia\~kod_html.php:0
+    0.0023     480192   2. json_encode() D:\xampp\htdocs\PROJEKT\dolaczenia\~kod_html.php:580
+
+;
+    alert(dupa)
+    var option = document.createElement('option')
+    option.value = '1'
+    option.innerHTML = 'Studencki'
+    select.appendChild(option)
+    cell.appendChild(select)
+    cell = row.insertCell(2)
+    cell.setAttribute('align','right')
+    cell.innerHTML = '17zl'
+    
+}
+</script>

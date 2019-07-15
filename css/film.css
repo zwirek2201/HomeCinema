@@ -1,0 +1,361 @@
+h2 /* Movie title */
+{
+    font-family: Arial;
+	font-size: 28px;
+	font-weight:bold;
+	color: #303030;
+    line-height: 30px; 
+    display: inline;
+}
+h3 /* Movie subtitle, date */
+{
+    font-family: Arial;
+	font-size: 20px;
+	font-weight:normal;
+	color: #808080;
+    margin-bottom: 5px;
+    line-height: 20px;
+   	text-shadow:none;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+h4 /* Movie description */
+{
+    font-family: Arial;
+	font-size: 16px;
+	font-weight:normal;
+	color: #303030;
+    line-height: 20px;
+   	text-shadow:none;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+#main_aside
+{
+    float:left;
+	width: 250px;
+    margin: 0px;
+	border-width: 1px;
+	float: left;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+#photo_container
+{
+    width: 230px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+	box-shadow: 5px 5px 15px #808080;
+	-moz-box-shadow: 5px 5px 15px #808080;
+	-webkit-box-shadow: 5px 5px 15px #808080;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+}
+#details_container
+{
+    width: 450px;
+    float: left;
+    margin: 20px 15px 10px 10px;
+}
+
+#ratings_container
+{
+    width: 240px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+	box-shadow: 5px 5px 15px #808080;
+	-moz-box-shadow: 5px 5px 15px #808080;
+	-webkit-box-shadow: 5px 5px 15px #808080;
+    margin-bottom: 10px;
+    background-color: #006699;
+    float: left;
+}
+
+#reservation_container
+{
+    width: 980px;
+    text-align: left;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+	box-shadow: 5px 5px 15px #808080;
+	-moz-box-shadow: 5px 5px 15px #808080;
+	-webkit-box-shadow: 5px 5px 15px #808080;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    float: left;
+}
+
+#ocena
+{
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    color: #006699;
+    line-height: 30px;
+    font-size: 22px;
+    text-align: center;
+    background-color: #FFFFFF;
+    display: block;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; 
+}
+
+#ocena:hover
+{
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    color: #FFFFFF;
+    line-height: 30px;
+    font-size: 22px;
+    text-align: center;
+    background-color: #f6b33d;
+    display: block;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; 
+}
+
+#ocena_zaznaczona
+{
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    color: #FFFFFF;
+    line-height: 30px;
+    font-size: 22px;
+    text-align: center;
+    background-color: #f6b33d;
+    display: block;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; 
+}
+
+#day_container
+{
+    width: 90px;
+    padding: 10px 4px 5px 4px;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+#date_container
+{
+    width: 80px;
+    height: 20px;
+    padding: 5px 5px 5px 5px;
+    background-color: #006699;
+    display: block;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; 
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+#show_container
+{
+    width: 78px;
+    padding: 5px 5px 5px 5px;
+    background-color: #FFFFFF;
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #006699;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; 
+    font-weight: normal;
+    color: #006699;
+    margin-bottom: 3px;
+}
+
+#show_container:hover
+{
+    width: 78px;
+    padding: 5px 5px 5px 5px;
+    background-color: #f6b33d;
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #006699;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; 
+    font-weight: bold;
+    color: #FFFFFF
+}
+
+#show_container:hover #show_details
+{
+	display: block;
+    margin-top: 10px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; 
+    padding: 5px 3px 3px 0px;
+}
+
+#show_container:hover #reservation_button
+{
+	display: block;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    background-color: #006699;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; 
+    color: #FFFFFF;
+    padding: 3px;
+    font-weight: bold;
+}
+
+#reservation_button
+{
+    display: none;
+}
+
+#show_container:hover #reservation_button:hover
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    padding: 2px 3px 2px 3px;
+}
+
+#show_details
+{
+    display: none;
+}
+
+.details_info
+{
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: normal;
+    color: #006699;
+    margin-bottom: 5px;
+}
+
+.photo
+{
+	border: none;
+    width: 200px;
+}
+.date
+{
+    font-family: Arial;
+	font-size: 18px;
+	font-weight:normal;
+	color: #303030;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    line-height: 20px;
+   	text-shadow:none;
+    display: inline;
+}
+
+.table_ocena
+{
+    margin-top: 5px;
+    width:240px;
+}
+
+.nazwisko
+{
+    color: #006699;
+}
+
+.gwiazda
+{
+    margin-left: 10px;
+    color: #f6b33d;
+    font-size: 40px;
+    line-height: 50px;
+    vertical-align: bottom;
+    -webkit-font-smoothing: antialiased;
+    display: inline;
+}
+
+.srednia
+{
+    color: #FFFFFF;
+    font-size: 50px;
+    line-height: 60px;
+    display: inline;
+}
+
+.liczba_glosow
+{
+   color: #FFFFFF;
+   font-size: 14px;
+   line-height: 18px;
+   display: inline; 
+}
+
+.ocen
+{
+    margin-top: 5px;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.tytul
+{
+    margin-bottom:10px;
+    margin-top: 5px;
+	font-size: 22px;
+    color: #006699;
+   	text-shadow:1px 1px 3px #808080;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+table
+{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+th
+{
+    padding-right: 10px;
+   	color: #909090;
+    text-decoration: none;
+    width: 120px;
+    height: 18px;
+}
+
+tr
+{
+    line-height: 14px;
+}
+
+td
+{
+    padding:0px;
+    height: 10px;
+}

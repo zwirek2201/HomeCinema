@@ -1,0 +1,328 @@
+h2 /* Movie title */
+{
+    font-family: Arial;
+	font-size: 24px;
+	font-weight:bold;
+	color: #303030;
+    line-height: 24px; 
+    display: inline;
+}
+h3 /* Movie subtitle, date */
+{
+    font-family: Arial;
+	font-size: 18px;
+	font-weight:normal;
+	color: #808080;
+    line-height: 18px;
+   	text-shadow:none;
+    margin-left: 0px;
+    margin-top: 3px;
+}
+h4
+{
+       font-family: Arial;
+	font-size: 20px;
+	font-weight:bold;
+	color: #303030;
+    line-height: 20px;
+   	text-shadow:none;
+    margin-left: 0px;
+    margin-top: 5px; 
+}
+
+#siedzenie
+{
+    height: 27px;
+    width: 27px;
+    margin: 1px;
+}
+
+#ekran
+{
+    margin-top: 10px;
+    width:620px;
+    font-size: 15px;
+    padding:3px;
+    margin-bottom: 25px;
+    line-height: 20px;
+    background-color: #dbdbdb;
+    color: #808080;
+    font-weight: bold;
+}
+
+#przycisk
+{
+    display: block;
+    float: left;
+    margin-top: 20px;
+    width: 100px;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; 
+    margin: 5px;
+}
+
+#przycisk_nofloat
+{
+    display: block;
+    margin-top: 20px;
+    width: 100px;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; 
+    margin: 5px;
+}
+
+#przyciski
+{
+    margin-top: 20px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+}
+
+#uklad_sali
+{
+    margin-top: 30px;
+    width: 800px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+	box-shadow: 5px 5px 15px #808080;
+	-moz-box-shadow: 5px 5px 15px #808080;
+	-webkit-box-shadow: 5px 5px 15px #808080;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+}
+
+#container_800_30
+{
+    margin-top: 30px;
+    width: 800px;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+	box-shadow: 5px 5px 15px #808080;
+	-moz-box-shadow: 5px 5px 15px #808080;
+	-webkit-box-shadow: 5px 5px 15px #808080;
+    margin-bottom: 10px;
+}
+
+.rezerwuj
+{
+    background-color: #006699;
+    color: #FFFFFF;
+}
+
+.kup
+{
+    background-color: #f6b33d;
+    color: #FFFFFF; 
+}
+
+.puste
+{
+    background-color: #FFFFFF;
+}
+
+.pelne
+{
+    background-color: #006699;
+}
+
+.pelne:hover
+{
+    background-color: #0088cc;
+}
+
+.zajete
+{
+    background-color: #f6b33d;
+}
+
+.zarezerwowane
+{
+    background-color: #E63000;
+}
+
+.siedzenie
+{
+    height: 27px;
+    width: 27px;
+    margin: 1px;
+}
+
+.numer_sali
+{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #505050;
+}
+
+.uklad_sali
+{
+    width:0px;
+    margin-bottom: 20px;
+}
+
+.id_biletu
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #006699;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.tabela_biletow
+{
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tabela_biletow2
+{
+    width: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bilety_combo
+{
+    height: 25px;
+    width: 120px;
+}
+
+.cena_biletu
+{
+    margin-left: 20px;
+font-size: 20px;
+    font-weight: bold;
+    color: #f6b33d;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline;
+}
+
+.cena_vip
+{
+font-size: 20px;
+    font-weight: bold;
+    color: #006699;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline;
+}
+
+.white
+{
+    background-color: #FFFFFF;
+}
+
+.blue
+{
+    background-color: #006699;
+}
+
+.tytul_bialy
+{
+    margin-bottom:10px;
+    margin-top: 5px;
+	font-size: 22px;
+    color: #FFFFFF;
+   	text-shadow:1px 1px 3px #808080;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.tytul_niebieski
+{
+    margin-bottom:10px;
+    margin-top: 5px;
+	font-size: 22px;
+    color: #006699;
+   	text-shadow:1px 1px 3px #808080;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.formularz
+{
+width: 550px;
+margin-left: 50px;
+margin-bottom: 15px;
+}
+
+.label
+{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: normal;
+    margin-right: 5px;
+}
+.dane
+{
+    height: 30px;
+    margin: 5px;
+    width: 250px;
+}
+
+.dane_blad
+{
+    height: 30px;
+    margin: 5px;
+    width: 250px;
+    background-color: #ffb2b2;
+}
+
+.potwierdzenie
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #f6b33d;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.potwierdzenie_kod
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #006699;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.vip
+{
+	font-size: 20px;
+    color: #FFFFFF;
+   	text-shadow:1px 1px 3px #808080;
+    font-weight: bold; 
+    line-height: 27px;
+    cursor:default;
+}
+
+td
+{
+    width:29px;
+    padding:0px;
+    margin:0px;
+}
+tr
+{
+    height:29px;
+    padding:0px;
+    margin:0px;
+}
